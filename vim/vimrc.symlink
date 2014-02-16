@@ -2,3 +2,20 @@ syntax on
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
+
+" Set relative line numbers
+set rnu
+
+" Exit insert mode with jj
+:imap jj <Esc>
+
+" Easy split navigation
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
+set autoindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
