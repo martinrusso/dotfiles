@@ -1,7 +1,5 @@
 syntax on
 
-" Wrap gitcommit file types at the appropriate length
-filetype indent plugin on
 
 " Set relative line numbers
 set rnu
@@ -19,3 +17,18 @@ set autoindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
+autocmd VimResized * wincmd =
+
+
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+Bundle 'FuzzyFinder'
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Wrap gitcommit file types at the appropriate length
+filetype indent plugin on
+
