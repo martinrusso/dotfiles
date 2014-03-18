@@ -24,10 +24,14 @@ autocmd VimResized * wincmd =
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'FuzzyFinder'
 
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+" Let Vundle manage Vundle
+ Bundle 'gmarik/vundle'
+
+" My bundles
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'kien/ctrlp.vim'
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
