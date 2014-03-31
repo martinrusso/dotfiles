@@ -26,12 +26,12 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Let Vundle manage Vundle
- Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " My bundles
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'kien/ctrlp.vim'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'kien/ctrlp.vim'
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
