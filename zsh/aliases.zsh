@@ -18,6 +18,8 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias lart='ls -lart'
+alias thor='ls -thor'
 
 
 alias de='cd ~/Desktop'
