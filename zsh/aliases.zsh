@@ -21,6 +21,7 @@ alias l='ls -CF'
 alias lart='ls -lart'
 alias thor='ls -thor'
 
+alias chx='chmod +x'
 
 alias de='cd ~/Desktop'
 alias up='cd ..'
