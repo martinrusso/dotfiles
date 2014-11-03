@@ -16,6 +16,9 @@ then
  . /usr/share/autojump/autojump.sh
  fi
 
+ # autojump mac
+ [[ -s `brew --prefix`/etc/autojump.zsh ]] && . `brew --prefix`/etc/autojump.zsh
+
 # all of our zsh files
 typeset -U config_files
 config_files=($ZSH/**/*.zsh)
